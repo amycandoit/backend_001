@@ -21,6 +21,7 @@
         <div>
             <p class=" user_text">ID</p>
             <input class="user_input" type="text" name="username" placeholder="아이디를 입력하세요">
+<%--            <input class="idchk_btn" type="button" onclick="fn_idChk();" value="중복확인">--%>
         </div>
         <div>
             <p class=" user_text">PASSWORD</p>

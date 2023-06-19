@@ -20,10 +20,17 @@ public class SignupServlet extends HttpServlet {
         String username = req.getParameter("username");
         String password = req.getParameter("password");
         String name = req.getParameter("name");
-        User signup = new User(null, username, password, name, null );
-        UserDao userDao = new UserDao();
-        userDao.insert(signup);
-        resp.sendRedirect("/main");
+
+        if(username.equals("")||password.equals("")||name.equals("")){
+            resp.sendRedirect("/signup");
+        }else {
+
+            User signup = new User(null, username, password, name, null);
+            UserDao userDao = new UserDao();
+            userDao.insert(signup);
+
+            resp.sendRedirect("/main");
+        }
     }
 }
 

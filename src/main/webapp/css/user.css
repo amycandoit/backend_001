@@ -83,3 +83,13 @@ input:-moz-placeholder {
 .login_input {
     margin-top: 50px;
 }
+.idchk_btn {
+    width: 80px;
+    height: 30px;
+    background-color: #FA9021;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-left: 89%;
+    border-radius: 5px;
+}
