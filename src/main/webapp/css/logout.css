@@ -1,0 +1,23 @@
+.start_button{
+    position: absolute;
+    width: 195px;
+    height: 53px;
+    left: 12%;
+    top: 699px;
+    background: linear-gradient(92.48deg, #FA8305 2.08%, #FB9E3C 117.25%);
+    border-radius: 40px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.hero_text {
+    position: absolute;
+    left: 30%;
+    top: 0.8%;
+
+}

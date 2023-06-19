@@ -1,0 +1,8 @@
+.job {
+    position: absolute;
+    width: 1146px;
+    height: 458px;
+    top: 24%;
+    left:50%;
+    transform:translateX(-50%);
+}

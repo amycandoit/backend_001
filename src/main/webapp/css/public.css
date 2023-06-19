@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.bodycolor {
+    position: relative;
+    height: 3877px;
+    width: 100%;
+    background: linear-gradient(180.96deg, #000000 0.82%, #4A2800 129.1%);
+}
+.joystick {
+    position: absolute;
+    width: 515px;
+    height: 761px;
+    left: 65%;
+    top: 0px;
+}
+.top {
+    margin: 0;
+}
+.headerbutton {
+    background-color: #FA9021;
+    height: 36px;
+    width: 132px;
+    top: 1%;
+    border-radius: 6px;
+    border: 0;
+}
+.headerbuttonlogin{
+    position: absolute;
+    right: 12%;
+    bottom: 98.25%;
+}
+.headerbuttonsignup{
+    position: absolute;
+    right: 1.5%;
+    bottom: 98.25%;
+}
+
+.headerbuttonfont {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.mainfont {
+    font-family: 'Poppins';
+    color: #FFFFFF;
+    font-style: normal;
+}
+
+.logo {
+    position: absolute;
+    left: 15px;
+    top: -15px;
+    font-weight: 800;
+    font-size: 29px;
+    line-height: 45px;
+    text-align: center;
+}
+
+.aboutus {
+    position: absolute;
+    left: 220px;
+    top: 24px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.main_text_img {
+    position: absolute;
+    width: 527px;
+    height: 289px;
+    left: 12%;
+    top: 380px;
+}
