@@ -1,14 +1,12 @@
-package com.playdata.domain.request;
+package com.playdata.user.domain.request;
 
-public class SignupRequest {
+public class LoginRequest {
     private String id;
     private String password;
-    private String name;
 
-    public SignupRequest(String id, String password, String name) {
+    public LoginRequest(String id, String password) {
         this.id = id;
         this.password = password;
-        this.name = name;
     }
 
     public String getId() {
@@ -25,13 +23,5 @@ public class SignupRequest {
 
     public void setPassword(String password) {
         this.password = password;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 }

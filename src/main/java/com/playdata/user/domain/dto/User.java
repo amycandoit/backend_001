@@ -1,22 +1,25 @@
-package com.playdata.domain.dto;
+package com.playdata.user.domain.dto;
 
-public class UserDto {
+public class User {
     private Integer id;
     private String username;
     private String password;
+    private String name;
 
-    public UserDto(Integer id, String username, String password) {
+    public User(Integer id, String username, String password, String name) {
         this.id = id;
         this.username = username;
         this.password = password;
+        this.name = name;
     }
 
     @Override
     public String toString() {
-        return "UserDto{" +
+        return "User{" +
                 "id=" + id +
                 ", username='" + username + '\'' +
                 ", password='" + password + '\'' +
+                ", name='" + name + '\'' +
                 '}';
     }
 
@@ -43,4 +46,18 @@ public class UserDto {
     public void setPassword(String password) {
         this.password = password;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public User() {
+
+    }
 }
+
+
